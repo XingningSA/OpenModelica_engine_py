@@ -1,15 +1,12 @@
 from setuptools import setup
 
-setup(
-    name = 'mpldatacursor',
-    version = '0.7-dev',
-    description = "Interactive data cursors for Matplotlib",
-    author = 'Joe Kington',
-    author_email = 'joferkington@gmail.com',
-    license = 'MIT',
-    url = 'https://github.com/joferkington/mpldatacursor/',
-    packages = ['mpldatacursor'],
-    install_requires = [
-        'matplotlib >= 0.9',
-        'numpy >= 1.1']
-)
+setup(name='ModelicaEngine',
+      version='0.1',
+      description= 'OpenModelica interact code',
+      author= 'Xingning SA',
+      author_email= 'ssyxs3@nottingham.edu.cn',
+      license='UNNC',
+      url='https://github.com/XingningSA/OpenModelica_engine_py.git',
+      packages=['ModelicaEngine'],
+      install_requires=['scipy', 'pandas', 'modelica-builder']
+)  
